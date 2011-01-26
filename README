@@ -1,0 +1,12 @@
+Description:
+
+A really basic sinatra app to access your localhost redis instance by a restfull API.
+
+=====================
+
+This is a little toy I am working on.  This project is not complete at all, I am learning some interested concepts and I will experiment with them here.
+
+January 26, 2011
+
+Antonio J Rossi
+Carlos Villuenda
