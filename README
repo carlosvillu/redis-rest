@@ -6,6 +6,33 @@ A really basic sinatra app to access your localhost redis instance by a restfull
 
 This is a little toy I am working on.  This project is not complete at all, I am learning some interested concepts and I will experiment with them here.
 
+I have started this project after reading this blog entry http://thechangelog.com/post/2910383164/webdis-a-redis-http-interface-with-json-output An awesome idea by the way!
+
+=====================
+
+Installation:
+
+  - Install redis, you can do it from http://redis.io/
+  - Install redis-rb with 'gem install redis' (more info at https://github.com/ezmobius/redis-rb)
+  - Install sinatra with 'gem install sinatra' (more info at http://www.sinatrarb.com/)
+  - Finally, clone this repository
+
+Run baby, run:
+
+  - To launch the server, you only need to write 'ruby -rubygems redis-rest.rb'
+
+Testing it:
+
+  - You only need to launch to your favourite web browser and go to http://localhost:4567/ping If you see a PONG, good for you!, everything is setup correctly.
+
+Using it:
+
+  - To use it you only need to introduce URLs like the folowings:
+    - http://server:port/command[/key][/value]
+
+  NOTE: Not all commands are supported at the moment.
+
+
 January 26, 2011
 
 Antonio J Rossi
